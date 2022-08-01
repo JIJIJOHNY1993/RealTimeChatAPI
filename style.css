@@ -120,4 +120,97 @@ form .name-details .field:last-child
     transform: translateY(-50%);
     cursor: pointer;
 }
+/* users css code */
+.users
+{
+    padding: 25px 30px;
 
+}
+.users header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px solid #e6e6e6;
+    padding-bottom:20px;
+}
+
+.users header .content img
+{
+    height: 50px;
+    width: 50px;
+
+}
+.wrapper img{
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.users header .content
+{
+    display: flex;
+
+}
+
+.users header .details
+{
+    margin-left: 15px;
+
+}
+
+.users header .details span
+{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.users header .logout
+{
+    background: #333;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 17px;
+    border-radius: 5px;
+
+}
+
+.users .search
+{
+    margin: 20px 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.users .search .text
+{
+    font-size: 18px;
+}
+
+.users .search input
+{
+    position: absolute;
+    height: 42px;
+    width: calc(100% - 50px);
+    border:1px solid #ccc;
+    padding:0 13px;
+    font-size: 16px;
+    border-radius:5px 0 0 5px;
+    outline:none;
+}
+.users .search button
+{
+    color: #fff;
+    height: 42px;
+    width:47px;
+    border:none;
+    outline:none;
+   background: #333;
+   border-radius:0 5px 5px 0;
+   cursor: pointer;
+   font-size: 17px;
+}
+ 
