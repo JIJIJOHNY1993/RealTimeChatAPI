@@ -109,7 +109,7 @@ form .name-details .field:last-child
 .form .link a{
     color:#333;
 }
-.form .link a: hover{
+.form .link a:hover{
     text-decoration:underline;
 }
 .form form .field i{
@@ -119,6 +119,10 @@ form .name-details .field:last-child
     top:70%;
     transform: translateY(-50%);
     cursor: pointer;
+}
+.form form .field i.active::before{
+    color: #333;
+    content:"\f070";
 }
 /* users css code */
 .users
@@ -350,4 +354,8 @@ color:#333;
     border:none;
     outline:none;
     border-radius:0 5px 5px 0;
+    background: #333;
+    color: #fff;
+    font-size:19px;
+    cursor: pointer;
 }
